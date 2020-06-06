@@ -4,7 +4,7 @@ A custom component for Home Assistant that let you to control heating and coolin
 
 ## INSTALLATION
 
-Copy all files in ha_config_folder/custom_components/heat_cool_generic_thermostat/ folder
+Copy all files in ha_config_folder/custom_components/hvac_generic_thermostat/ folder
 
 ## SAMPLE CONFIGURATION
 
