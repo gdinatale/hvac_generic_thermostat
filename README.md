@@ -31,8 +31,8 @@ climate:
  ```
 Field | Value | Necessity | Comments
 --- | --- | --- | ---
-platform | 'heat_cool_generic_thermostat' | *Required* |
-name | Heat Cool Generic Thermostat | Optional |
+platform | 'hvac_generic_thermostat' | *Required* |
+name | HVAC Generic Thermostat | Optional |
 cooler |  | *Required* | Switch that will activate/deactivate the cooling system |
 heater |  | *Required* | Switch that will activate/deactivate the heating system |
 target_sensor |  | *Required* | Sensor of actual room temperature |
