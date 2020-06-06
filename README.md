@@ -19,8 +19,7 @@ climate:
     min_temp: 15
     max_temp: 35
     target_temp: 23.5
-    cold_tolerance: 1.0
-    hot_tolerance: 1.0
+    tolerance: 1.0
     away_temp: 35
     initial_operation_mode: "off"
     min_cycle_duration:
@@ -39,7 +38,6 @@ target_sensor |  | *Required* | Sensor of actual room temperature |
 min_temp | 7 | Optional | Minimum thermostat temperature (default value: 7) |
 max_temp | 35 | Optional | Maximum thermostat temperature (default value: 35) |
 target_temp |  | Optional | Desired temperature for the room |
-cold_tolerance | 0.3 | Optional | Tolerance for cooling mode (default value: 0.3) |
-hot_tolerance | 0.3 | Optional | Tolerance for heating mode (default value: 0.3) |
+tolerance | 0.3 | Optional | Temperature tolerance (default value: 0.3) |
 away_temp |  | Optional | Desired temperature for away mode |
 initial_operation_mode |  | Optional | Operating mode at startup |
