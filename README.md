@@ -20,7 +20,8 @@ climate:
     max_temp: 35
     target_temp: 23.5
     tolerance: 1.0
-    away_temp: 35
+    away_cool_temp: 27
+    away_heat_temp: 19
     initial_operation_mode: "off"
     min_cycle_duration:
       seconds: 5
@@ -39,5 +40,6 @@ min_temp | 7 | Optional | Minimum thermostat temperature (default value: 7) |
 max_temp | 35 | Optional | Maximum thermostat temperature (default value: 35) |
 target_temp |  | Optional | Desired temperature for the room |
 tolerance | 0.3 | Optional | Temperature tolerance (default value: 0.3) |
-away_temp |  | Optional | Desired temperature for away mode |
+away_cool_temp |  | Optional | Desired away temperature for cooling mode |
+away_heat_temp |  | Optional | Desired away temperature for heating mode |
 initial_operation_mode |  | Optional | Operating mode at startup |
