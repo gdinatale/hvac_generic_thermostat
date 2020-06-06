@@ -1,4 +1,4 @@
-# Heat and Cool Generic Thermostat custom component for Home Assistant
+# HVAC Generic Thermostat custom component for Home Assistant
 
 A custom component for Home Assistant that let you to control heating and cooling from the same thermostat entity. Based on official Generic Thermostat Component and on community thread <a href="https://community.home-assistant.io/t/heat-cool-generic-thermostat/76443">#76443</a>
 
