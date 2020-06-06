@@ -1,0 +1,11 @@
+{
+  "domain": "hvac_generic_thermostat",
+  "name": "HVAC Generic thermostat",
+  "documentation": "https://github.com/gdinatale/hvac_generic_thermostat/blob/master/README.md",
+  "requirements": [],
+  "dependencies": [
+    "sensor",
+    "switch"
+  ],
+  "codeowners": []
+}
